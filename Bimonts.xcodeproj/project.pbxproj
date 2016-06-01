@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66D71501CFF953E005AB1D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66D714F1CFF953E005AB1D2 /* main.m */; };
+		B66D71531CFF953E005AB1D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66D71521CFF953E005AB1D2 /* AppDelegate.m */; };
+		B66D71561CFF953E005AB1D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66D71551CFF953E005AB1D2 /* ViewController.m */; };
+		B66D71591CFF953E005AB1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66D71571CFF953E005AB1D2 /* Main.storyboard */; };
+		B66D715C1CFF953E005AB1D2 /* Bimonts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B66D715A1CFF953E005AB1D2 /* Bimonts.xcdatamodeld */; };
+		B66D715E1CFF953E005AB1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66D715D1CFF953E005AB1D2 /* Assets.xcassets */; };
+		B66D71611CFF953E005AB1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66D715F1CFF953E005AB1D2 /* LaunchScreen.storyboard */; };
+		B66D716C1CFF953F005AB1D2 /* BimontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66D716B1CFF953F005AB1D2 /* BimontsTests.m */; };
+		B66D71771CFF953F005AB1D2 /* BimontsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66D71761CFF953F005AB1D2 /* BimontsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B66D71681CFF953F005AB1D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66D71431CFF953E005AB1D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66D714A1CFF953E005AB1D2;
+			remoteInfo = Bimonts;
+		};
+		B66D71731CFF953F005AB1D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66D71431CFF953E005AB1D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66D714A1CFF953E005AB1D2;
+			remoteInfo = Bimonts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B66D714B1CFF953E005AB1D2 /* Bimonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bimonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66D714F1CFF953E005AB1D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B66D71511CFF953E005AB1D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B66D71521CFF953E005AB1D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B66D71541CFF953E005AB1D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B66D71551CFF953E005AB1D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B66D71581CFF953E005AB1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66D715B1CFF953E005AB1D2 /* Bimonts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bimonts.xcdatamodel; sourceTree = "<group>"; };
+		B66D715D1CFF953E005AB1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66D71601CFF953E005AB1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66D71621CFF953E005AB1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66D71671CFF953F005AB1D2 /* BimontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BimontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66D716B1CFF953F005AB1D2 /* BimontsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BimontsTests.m; sourceTree = "<group>"; };
+		B66D716D1CFF953F005AB1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66D71721CFF953F005AB1D2 /* BimontsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BimontsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66D71761CFF953F005AB1D2 /* BimontsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BimontsUITests.m; sourceTree = "<group>"; };
+		B66D71781CFF953F005AB1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66D71481CFF953E005AB1D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D71641CFF953F005AB1D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D716F1CFF953F005AB1D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B66D71421CFF953E005AB1D2 = {
+			isa = PBXGroup;
+			children = (
+				B66D714D1CFF953E005AB1D2 /* Bimonts */,
+				B66D716A1CFF953F005AB1D2 /* BimontsTests */,
+				B66D71751CFF953F005AB1D2 /* BimontsUITests */,
+				B66D714C1CFF953E005AB1D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B66D714C1CFF953E005AB1D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66D714B1CFF953E005AB1D2 /* Bimonts.app */,
+				B66D71671CFF953F005AB1D2 /* BimontsTests.xctest */,
+				B66D71721CFF953F005AB1D2 /* BimontsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66D714D1CFF953E005AB1D2 /* Bimonts */ = {
+			isa = PBXGroup;
+			children = (
+				B66D71511CFF953E005AB1D2 /* AppDelegate.h */,
+				B66D71521CFF953E005AB1D2 /* AppDelegate.m */,
+				B66D71541CFF953E005AB1D2 /* ViewController.h */,
+				B66D71551CFF953E005AB1D2 /* ViewController.m */,
+				B66D71571CFF953E005AB1D2 /* Main.storyboard */,
+				B66D715D1CFF953E005AB1D2 /* Assets.xcassets */,
+				B66D715F1CFF953E005AB1D2 /* LaunchScreen.storyboard */,
+				B66D71621CFF953E005AB1D2 /* Info.plist */,
+				B66D715A1CFF953E005AB1D2 /* Bimonts.xcdatamodeld */,
+				B66D714E1CFF953E005AB1D2 /* Supporting Files */,
+			);
+			path = Bimonts;
+			sourceTree = "<group>";
+		};
+		B66D714E1CFF953E005AB1D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66D714F1CFF953E005AB1D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B66D716A1CFF953F005AB1D2 /* BimontsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66D716B1CFF953F005AB1D2 /* BimontsTests.m */,
+				B66D716D1CFF953F005AB1D2 /* Info.plist */,
+			);
+			path = BimontsTests;
+			sourceTree = "<group>";
+		};
+		B66D71751CFF953F005AB1D2 /* BimontsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B66D71761CFF953F005AB1D2 /* BimontsUITests.m */,
+				B66D71781CFF953F005AB1D2 /* Info.plist */,
+			);
+			path = BimontsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66D714A1CFF953E005AB1D2 /* Bimonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66D717B1CFF953F005AB1D2 /* Build configuration list for PBXNativeTarget "Bimonts" */;
+			buildPhases = (
+				B66D71471CFF953E005AB1D2 /* Sources */,
+				B66D71481CFF953E005AB1D2 /* Frameworks */,
+				B66D71491CFF953E005AB1D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bimonts;
+			productName = Bimonts;
+			productReference = B66D714B1CFF953E005AB1D2 /* Bimonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B66D71661CFF953F005AB1D2 /* BimontsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66D717E1CFF953F005AB1D2 /* Build configuration list for PBXNativeTarget "BimontsTests" */;
+			buildPhases = (
+				B66D71631CFF953F005AB1D2 /* Sources */,
+				B66D71641CFF953F005AB1D2 /* Frameworks */,
+				B66D71651CFF953F005AB1D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66D71691CFF953F005AB1D2 /* PBXTargetDependency */,
+			);
+			name = BimontsTests;
+			productName = BimontsTests;
+			productReference = B66D71671CFF953F005AB1D2 /* BimontsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B66D71711CFF953F005AB1D2 /* BimontsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66D71811CFF953F005AB1D2 /* Build configuration list for PBXNativeTarget "BimontsUITests" */;
+			buildPhases = (
+				B66D716E1CFF953F005AB1D2 /* Sources */,
+				B66D716F1CFF953F005AB1D2 /* Frameworks */,
+				B66D71701CFF953F005AB1D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66D71741CFF953F005AB1D2 /* PBXTargetDependency */,
+			);
+			name = BimontsUITests;
+			productName = BimontsUITests;
+			productReference = B66D71721CFF953F005AB1D2 /* BimontsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66D71431CFF953E005AB1D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QuimaDevelopers;
+				TargetAttributes = {
+					B66D714A1CFF953E005AB1D2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B66D71661CFF953F005AB1D2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B66D714A1CFF953E005AB1D2;
+					};
+					B66D71711CFF953F005AB1D2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B66D714A1CFF953E005AB1D2;
+					};
+				};
+			};
+			buildConfigurationList = B66D71461CFF953E005AB1D2 /* Build configuration list for PBXProject "Bimonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B66D71421CFF953E005AB1D2;
+			productRefGroup = B66D714C1CFF953E005AB1D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66D714A1CFF953E005AB1D2 /* Bimonts */,
+				B66D71661CFF953F005AB1D2 /* BimontsTests */,
+				B66D71711CFF953F005AB1D2 /* BimontsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66D71491CFF953E005AB1D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66D71611CFF953E005AB1D2 /* LaunchScreen.storyboard in Resources */,
+				B66D715E1CFF953E005AB1D2 /* Assets.xcassets in Resources */,
+				B66D71591CFF953E005AB1D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D71651CFF953F005AB1D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D71701CFF953F005AB1D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66D71471CFF953E005AB1D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66D715C1CFF953E005AB1D2 /* Bimonts.xcdatamodeld in Sources */,
+				B66D71561CFF953E005AB1D2 /* ViewController.m in Sources */,
+				B66D71531CFF953E005AB1D2 /* AppDelegate.m in Sources */,
+				B66D71501CFF953E005AB1D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D71631CFF953F005AB1D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66D716C1CFF953F005AB1D2 /* BimontsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D716E1CFF953F005AB1D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66D71771CFF953F005AB1D2 /* BimontsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B66D71691CFF953F005AB1D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66D714A1CFF953E005AB1D2 /* Bimonts */;
+			targetProxy = B66D71681CFF953F005AB1D2 /* PBXContainerItemProxy */;
+		};
+		B66D71741CFF953F005AB1D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66D714A1CFF953E005AB1D2 /* Bimonts */;
+			targetProxy = B66D71731CFF953F005AB1D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B66D71571CFF953E005AB1D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66D71581CFF953E005AB1D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B66D715F1CFF953E005AB1D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66D71601CFF953E005AB1D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66D71791CFF953F005AB1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B66D717A1CFF953F005AB1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66D717C1CFF953F005AB1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bimonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.Bimonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66D717D1CFF953F005AB1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bimonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.Bimonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66D717F1CFF953F005AB1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BimontsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.BimontsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bimonts.app/Bimonts";
+			};
+			name = Debug;
+		};
+		B66D71801CFF953F005AB1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BimontsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.BimontsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bimonts.app/Bimonts";
+			};
+			name = Release;
+		};
+		B66D71821CFF953F005AB1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BimontsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.BimontsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bimonts;
+			};
+			name = Debug;
+		};
+		B66D71831CFF953F005AB1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BimontsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.BimontsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bimonts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66D71461CFF953E005AB1D2 /* Build configuration list for PBXProject "Bimonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66D71791CFF953F005AB1D2 /* Debug */,
+				B66D717A1CFF953F005AB1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66D717B1CFF953F005AB1D2 /* Build configuration list for PBXNativeTarget "Bimonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66D717C1CFF953F005AB1D2 /* Debug */,
+				B66D717D1CFF953F005AB1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B66D717E1CFF953F005AB1D2 /* Build configuration list for PBXNativeTarget "BimontsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66D717F1CFF953F005AB1D2 /* Debug */,
+				B66D71801CFF953F005AB1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B66D71811CFF953F005AB1D2 /* Build configuration list for PBXNativeTarget "BimontsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66D71821CFF953F005AB1D2 /* Debug */,
+				B66D71831CFF953F005AB1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B66D715A1CFF953E005AB1D2 /* Bimonts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B66D715B1CFF953E005AB1D2 /* Bimonts.xcdatamodel */,
+			);
+			currentVersion = B66D715B1CFF953E005AB1D2 /* Bimonts.xcdatamodel */;
+			path = Bimonts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B66D71431CFF953E005AB1D2 /* Project object */;
+}
